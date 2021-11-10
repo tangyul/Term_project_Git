@@ -49,5 +49,18 @@ $('.ebooks .right-box ul > li').mouseenter(function(){
   //所有兄弟：隐藏详情 显示标题
   $(this).siblings().find('.desc').hide();
   $(this).siblings().find('.ebooks-title').show();
-})
+});
+/*服装轮播 */
+$('#clother-banner').tyslide({
+  boxh:334,//盒子的高度
+  w:482,//盒子的宽度
+  h:334,//图片的高度
+  isShow:true,//是否显示控制器
+  isShowBtn:true,//是否显示左右按钮
+  controltop:10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+  controlsW:20,//控制按钮宽度
+  controlsH:2,//控制按钮高度
+  controlsColor:"#d7d7d7",//普通控制按钮的颜色
+  controlsCurrentColor:"#00ff00",//当前控制按钮的颜色
+});
 })
