@@ -284,8 +284,8 @@
 }
 .ebook .left-box .top .title{
     text-indent: 24px;
-    font-size: 24px;
-    color:#ff6700;
+   font-size: 28px;
+    color:#101010;
     font-weight: 300;
 }
 .ebook .left-box .top ul li{
@@ -426,8 +426,8 @@
 }
 .clothes .roof .caption{
     text-indent: 24px;
-    font-size: 24px;
-    color:#ff6700;
+    font-size: 28px;
+    color:#101010;
     font-weight: 300;
 }
 .clothes .roof ul li{
@@ -443,30 +443,6 @@
 .clothes .leftbox{
     width: 236px;
     height: 495px;
-}
-.clothes .roof{
-    width: 1200px;
-    height: 40px;
-    line-height: 40px;
-    background-color:#fff;
-    border-bottom: 6px solid #ff6700;
-
-}
-.clothes .roof .caption{
-    text-indent: 24px;
-    font-size: 24px;
-    color:#ff6700;
-    font-weight: 300;
-}
-.clothes .roof ul li{
-    float: left;
-    font-size: 20px;
-    width: 100px;
-    text-align: center;
-}
-.clothes .roof ul li.active{
-    background-color: #ff6700;
-    color:#fff;
 }
 .clothes .main{
     width:1200px;
@@ -513,48 +489,52 @@
 .clothes .main .rightbox-main{
     width:964px;
     height:491px;
-    background-color: red;
+    
 }
 .clothes .main .rightbox .rightbox-main .slideshow{
     width:482px;
     height:470px;
-    background-color: yellow;
+    
 }
 .clothes .main .rightbox .rightbox-main .slideshow ul li:nth-child(1){
     width:482px;
     height:334px;
-    background-color: pink;
+  
 }
 .clothes .main .rightbox .rightbox-main .slideshow ul li:last-child{
     width:482px;
     height:157px;
-    background-color: blueviolet;
+    
 }
 .clothes .main .rightbox .rightbox-main .master{
     width:482px;
     height:491px;
-    background-color: blue;
+   
 }
 .clothes .main .rightbox .rightbox-main .master .master-up{
-    width:482px;
-    height: 270px;
-    background-color: yellow;
+    width:481px;
+    height: 334px;
+   
     
 }
 .clothes .main .rightbox .rightbox-main .master .master-up ul{
-    list-style: none;
+    display: table;
+    text-align: center;
 }
 .clothes .main .rightbox .rightbox-main .master .master-up ul li{
     border: 1px solid #ccc;
     width: 158px;
     height: 334px;
-    display: block;
-    float: left;background-color:red;
+    float: left;
+
+}
+.clothes .main .rightbox .rightbox-main .master .master-up ul li img{
+    width: 158px;
+    height: 334px;
 }
 .clothes .main .rightbox .rightbox-main .master .master-down{
     width:482px;
     height: 200px;
-    background-color: pink;
  
 }
 .clothes .main .rightbox .rightbox-main .master .master-down ul{
@@ -566,7 +546,10 @@
     width:158px;
     height:154px;
     float: left;
-    background-color:red;
+}
+.clothes .main .rightbox .rightbox-main .master .master-down ul li img{
+    width:158px;
+    height:154px;
 }
 .clothes .main .rightbox .rightbox-main .slideshow ul li img{
     width: 482px;
@@ -581,26 +564,573 @@
 }
 /*7.============户外运动============*/
 .sport{
-    height: 500px;
-    background-color: #333;
+    margin-top: 30px;
+    height: 601px;
+}
+.sport .roof{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#fff;
+    border-bottom: 6px solid #ff6700;
+
+}
+.sport .roof .caption{
+    text-indent: 24px;
+    font-size: 24px;
+    color:#ff6700;
+    font-weight: 300;
+}
+.sport .roof ul li{
+    float: left;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+.sport .roof ul li.active{
+    background-color: #ff6700;
+    color:#fff;
+}
+.sport .leftbox{
+    width: 236px;
+    height: 495px;
+}
+.sport .roof{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#fff;
+    border-bottom: 6px solid #ff6700;
+
+}
+.sport .roof .caption{
+    text-indent: 24px;
+    font-size: 28px;
+    color:#101010;
+    font-weight: 300px;
+}
+.sport .roof ul li{
+    float: left;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+.sport .roof ul li.active{
+    background-color: #ff6700;
+    color:#fff;
+}
+.sport .main{
+    width:1200px;
+    height:491px;
+}
+.sport .main .leftbox{
+    height:491px;
+    width:236px;
+}
+.sport .main .leftbox .matter{
+    height: 491px;
+    width: 236px;
+  
+}
+.sport .main .leftbox .matter .sport-ads{
+    height: 491px;
+    width: 236px;
+}
+.sport .main .leftbox .matter .sport-ads .main{
+    width:964px;
+    height:491px;
+}
+.sport .main .leftbox .matter .sport-ads img{
+    width: 236px;
+    height: 350px;
+}
+.sport .main .leftbox .matter  .menu-bar{
+    height: 170px;
+    width: 237px;
+}
+.sport .main .leftbox .matter  .menu-bar ul{
+    width: 235px;
+    height: 147px;
+    margin-left: 1px;
+}
+.sport .main .leftbox .matter .menu-bar ul li{
+    float:left;
+    width: 78px;
+    height: 40px;
+    line-height: 18px;
+    text-indent: 5px;
+}
+.sport .main .rightbox-main{
+    width:964px;
+    height:491px;
+}
+.sport .main .rightbox .rightbox-main .slideshow{
+    width:482px;
+    height:470px;
+}
+.sport .main .rightbox .rightbox-main .slideshow ul li:nth-child(1){
+    width:482px;
+    height:334px;
+}
+.sport .main .rightbox .rightbox-main .slideshow ul li:last-child{
+    width:482px;
+    height:157px;
+}
+.sport .main .rightbox .rightbox-main .master{
+    width:482px;
+    height:492px;
+}
+.sport .main .rightbox .rightbox-main .master .master-up{
+    width:482px;
+    height: 270px;
+    
+}
+.sport .main .rightbox .rightbox-main .master .master-up ul{
+    list-style: none;
+}
+.sport .main .rightbox .rightbox-main .master .master-up ul li{
+    border: 1px solid #ccc;
+    width: 158px;
+    height: 334px;
+    display: block;
+    float: left;
+}
+.sport .main .rightbox .rightbox-main .master .master-up ul li img{
+    width: 158px;
+    height: 334px;
+}
+.sport .main .rightbox .rightbox-main .master .master-down{
+    width:482px;
+    height: 200px;
+ 
+}
+.sport .main .rightbox .rightbox-main .master .master-down ul{
+    list-style: none;
+}
+.sport .main .rightbox .rightbox-main .master .master-down ul li{
+    border: 1px solid #ccc;
+    display: block;
+    width:158px;
+    height:154px;
+    float: left;
+}
+.sport .main .rightbox .rightbox-main .master .master-down ul li img{
+    width:158px;
+    height:154px;
+}
+.sport .main .rightbox .rightbox-main .slideshow ul li img{
+    width: 482px;
+    height: 157px;
+}
+.sport .base{
+    width: 1200px;
+    height:70px;
+}
+.sport .base  img{
+    float: left;
 }
 /*8.============童装============*/
 .children-clothes{
-    height: 500px;
-    background-color: #ccc;
+    margin-top: 30px;
+    height: 601px;
+}
+.children-clothes .roof{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#fff;
+    border-bottom: 6px solid #ff6700;
+
+}
+.children-clothes .roof .caption{
+    text-indent: 24px;
+    font-size: 28px;
+    color:#101010;
+    font-weight: 300;
+}
+.children-clothes .roof ul li{
+    float: left;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+.children-clothes .roof ul li.active{
+    background-color: #ff6700;
+    color:#fff;
+}
+.children-clothes .leftbox{
+    width: 236px;
+    height: 495px;
+}
+
+.children-clothes .main{
+    width:1200px;
+    height:491px;
+}
+.children-clothes .main .leftbox{
+    height:491px;
+    width:236px;
+}
+.children-clothes .main .leftbox .matter{
+    height: 491px;
+    width: 236px;
+  
+}
+.children-clothes .main .leftbox .matter .children-clothes-ads{
+    height: 491px;
+    width: 236px;
+    background-color: #f9f9f9;
+}
+.children-clothes .main .leftbox .matter .children-clothes-ads .main{
+    width:964px;
+    height:491px;
+}
+.children-clothes .main .leftbox .matter .children-clothes-ads img{
+    width: 236px;
+    height: 350px;
+}
+.children-clothes .main .leftbox .matter  .menu-bar{
+    height: 170px;
+    width: 237px;
+}
+.children-clothes .main .leftbox .matter  .menu-bar ul{
+    width: 235px;
+    height: 147px;
+    margin-left: 1px;
+}
+.children-clothes .main .leftbox .matter .menu-bar ul li{
+    float:left;
+    width: 78px;
+    height: 40px;
+    line-height: 18px;
+    text-indent: 5px;
+}
+.children-clothes .main .rightbox-main{
+    width:964px;
+    height:491px;
+    
+}
+.children-clothes .main .rightbox .rightbox-main .slideshow{
+    width:482px;
+    height:470px;
+   
+}
+.children-clothes .main .rightbox .rightbox-main .slideshow ul li:nth-child(1){
+    width:482px;
+    height:334px;
+    
+}
+.children-clothes .main .rightbox .rightbox-main .slideshow ul li:last-child{
+    width:482px;
+    height:157px;
+    
+}
+.children-clothes .main .rightbox .rightbox-main .master{
+    width:482px;
+    height:492px;
+    
+}
+.children-clothes .main .rightbox .rightbox-main .master .master-up{
+    width:482px;
+    height: 270px;
+    
+    
+}
+.children-clothes .main .rightbox .rightbox-main .master .master-up ul{
+    list-style: none;
+}
+.children-clothes .main .rightbox .rightbox-main .master .master-up ul li{
+    border: 1px solid #ccc;
+    width: 158px;
+    height: 334px;
+    display: block;
+    float: left;
+}
+.children-clothes .main .rightbox .rightbox-main .master .master-up ul li img{
+    width: 158px;
+    height: 334px;
+}
+.children-clothes .main .rightbox .rightbox-main .master .master-down{
+    width:482px;
+    height: 200px;
+}
+.children-clothes .main .rightbox .rightbox-main .master .master-down ul{
+    list-style: none;
+}
+.children-clothes .main .rightbox .rightbox-main .master .master-down ul li{
+    border: 1px solid #ccc;
+    display: block;
+    width:158px;
+    height:154px;
+    float: left;
+    
+}
+.children-clothes .main .rightbox .rightbox-main .master .master-down ul li img{
+    width:158px;
+    height:154px;
+}
+.children-clothes .main .rightbox .rightbox-main .slideshow ul li img{
+    width: 482px;
+    height: 157px;
+}
+.children-clothes .base{
+    width: 1200px;
+    height:64px;
+}
+.children-clothes .base  img{
+    float: left;
 }
 /*9.============家居日用============*/
 .daily{
+    margin-top: 30px;
+    height: 600px;
+}
+.daily .roof{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#fff;
+    border-bottom: 6px solid #ff6700;
+}
+.daily .roof .caption{
+    text-indent: 24px;
+    font-size: 28px;
+    color:#101010;
+    font-weight: 300;
+}
+.daily .main{
+    width: 1200px;
+    height:500px;
+}
+.daily .main .leftbox{
+    width: 498px;
     height: 500px;
-    background-color: #333;
+    border:1px solid #ccc;
+}
+.daily .main .leftbox ul li img{
+    width: 498px;
+    height:500px;
+}
+.daily .main .rightbox{
+    width: 700px;
+    height: 500px;
+}
+.daily .main .rightbox .master{
+    width: 700px;
+    height: 500px;
+    background-color: pink;
+}
+.daily .main .rightbox .master .master-up{
+    width: 700px;
+    height:300px;
+}
+.daily .main .rightbox .master .master-up ul{
+    display: table;
+    text-align: center;
+}
+.daily .main .rightbox .master .master-up ul li{
+    width: 173px;
+    height:300px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.daily .main .rightbox .master .master-up ul li img{
+    height:300px;
+    width:173px;
+}
+.daily .main .rightbox .master .master-down{
+    width: 700px;
+    height:200px;
+}
+.daily .main .rightbox .master .master-down ul{
+    display: table;
+    text-align: center;
+}
+.daily .main .rightbox .master .master-down ul li{
+    width: 173px;
+    height:200px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.daily .main .rightbox .master .master-down ul li img{
+    width:173px;
+    height:199px;
 }
 /*10.============推广商品============*/
 .promotion{
-    height: 500px;
-    background-color: #ccc;
+    height: 650px;
 }
+.promotion .roof{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#fff;
+    border-bottom: 6px solid #ff6700;
+}
+.promotion .roof ul li:first-child{
+    background:#ff6700;
+}
+.promotion .roof .active{
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right:5px;
+    text-align: right;
+}
+.promotion .roof .caption{
+    text-indent: 24px;
+    font-size: 28px;
+    color:#ff6700;
+    font-weight: 300;
+}
+
+.promotion .main{
+    width:1200px;
+    height: 600px;
+}
+.promotion .main ul{
+    display: table;
+    text-align: center;
+}
+.promotion .main ul li{
+    width: 238px;
+    height:300px;
+    float: left;
+    margin-top: 5px;
+}
+
+.promotion .main ul li p{
+    text-align: center;
+    text-indent: 10px;
+    font-size: 16px;
+}
+.promotion .main ul li p.limit-time span{
+    color: red;
+}
+
+.promotion .main ul li p.price{
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 120px;
+}
+
 /*11.============尾部============*/
-.footer{
-    height: 500px;
-    background-color: #333;
+.footer {
+    height: 550px;
+    margin-top: 30px;
+}
+
+.footer .footer-img {
+    float: right;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.footer .top {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ff6700;
+    border-bottom: 6px solid #ff6700;
+}
+
+.footer .one-banner {
+    height: 94px;
+}
+
+.footer .one-banner ul {
+    margin-left: 200px;
+}
+
+.footer .one-banner ul li {
+    width: 150px;
+    height: 90px;
+    float: left;
+    padding-left: 80px;
+    position: relative;
+}
+
+.footer .one-banner ul li img {
+    position: absolute;
+    /*相对定位*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /*使其垂直居中*/
+}
+
+.footer .two-banner {
+    height: 200px;
+}
+
+.footer .two-banner .text {
+    margin-left: 200px;
+    padding-top: 40px;
+}
+
+.footer .two-banner .text li {
+    float: left;
+    margin-left: 30px;
+    text-indent: 50px
+}
+
+.footer .two-banner .text li h1 {
+    font-size: 20px;
+    font-weight: 60px;
+    text-align: center;
+}
+
+.footer .two-banner .text li p {
+    font-size: 16px;
+    color: darkgray;
+    padding-top: 10px;
+}
+
+.footer .third {
+    height: 80px;
+}
+
+.footer .third .third-text {
+    margin-left: 180px;
+    padding-left: 30px;
+}
+
+.footer .third .third-text li {
+    float: left;
+    text-indent: 40px;
+    font-size: 16px
+}
+
+.footer .third .third-text li span {
+    margin-left: 10px;
+}
+
+.footer .third .third-text p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    margin-right: 390px;
+}
+
+.footer .logo {
+    width: 180px;
+    height: 100px;
+    float: right;
+    right: 200px;
+    bottom: 250px;
+    position: relative;
+}
+
+.footer .logo img {
+    width: 180px;
+    height: 100px;
 }
