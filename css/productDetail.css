@@ -1,0 +1,104 @@
+
+.product-detail{
+    height: 500px;
+    margin:50px auto;
+}
+.product-detail .left-box{
+    width: 340px;
+    height: 470px;
+    background-color: #fcfcfc;
+}
+.product-detail .right-box{
+    width: 800px;
+    height: 500px;
+    text-indent: 10px;
+    
+}
+.product-detail .right-box h2{
+    font-size: 20px;
+}
+.product-detail .right-box .details{
+    margin: 7px;
+    color:red;
+    font-size: 16px;
+}
+.product-detail .right-box .author{
+    margin: 10px;
+}
+.product-detail .right-box .kind{
+    margin-top: 10px;
+}
+.product-detail .right-box .kind button{
+    width:90px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.product-detail .right-box .kind .jing{
+    border: 2px solid #ff6700;
+}
+.product-detail .right-box .hint{
+    margin-top: 30px;
+}
+.product-detail .right-box .switch{
+    margin-top: 60px;
+}
+.product-detail .right-box .switch input{
+    width:60px;
+    height: 35px;
+    font-size: 22px;
+    text-align: center;
+}
+.product-detail .right-box .switch button{
+    height:30px;
+    width: 40px;
+    
+}
+.product-detail .right-box .switch .add-shopcart{
+    background-color: #ff6700;
+    width: 200px;
+    height: 70px;
+    color: #fcfcfc;
+    font-size: 24px;
+}
+.product-detail .right-box .rightbox-center{
+    background-color: #ebebeb;
+    height: 150px;
+    margin-top: 15px;
+}
+.product-detail .right-box .rightbox-center .price{
+    margin-top: 10px;
+}
+.product-detail .right-box .rightbox-center .price span{
+    color: red;
+    font-weight: 400px;
+    font-size: 20px;
+}
+.product-detail .right-box .rightbox-center .promotion{
+    margin-top:10px;
+}
+.product-detail .right-box .rightbox-center .promotion span{
+    color:red;
+    font-weight: 300px;
+}
+.product-detail .right-box .rightbox-center .ticket{
+    margin-top: 20px;
+}
+.product-detail .right-box .rightbox-center .comment{
+    float: right;
+    position: relative;
+    top: -105px;
+    border-left: 1px solid #ccc;
+}
+.product-detail .right-box .rightbox-center .comment .number{
+    color:red;
+}
+.product-detail .right-box .rightbox-center .ticket button{
+    background-color: #ff6700;
+    border: 2x solid #ff6700;
+    width: 80px;
+    height: 40px;
+}
+.magnifier-container{
+    height: 380px !important;
+
+}

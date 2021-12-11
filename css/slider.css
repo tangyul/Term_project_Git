@@ -42,7 +42,7 @@
 				left:0;
 				top:25px;
 				background-color: black;
-				background-image:url(../images/nav.png);
+				background-image:url(/Term_project_Git/img/nav.png);
 				background-position: -10px 4px;
 				cursor: pointer;
 				z-index: 77;
@@ -63,7 +63,7 @@
 			
 			/*控制按钮开始*/
 			.controls{
-				width:125px;
+				width: 160px;
 				position: absolute;
 				left:152px;
 				bottom:10px;
