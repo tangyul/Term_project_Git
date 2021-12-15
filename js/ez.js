@@ -51,11 +51,11 @@ $(function(){
   //var index=0;
  // $('.change').click(function(){
       //自增
-     // index++;
+     //index++;
       //边界判断
-     // index = index > 2 ? 0 : index;
+      //index = index > 2 ? 0 : index;
       //让里面的inner-box运动
-    //  $('.inner-box').animate({
+      //$('.inner-box').animate({
       //    top:-index*500
      // })
  // })
@@ -65,13 +65,23 @@ $(function(){
  $('.change').click(function(){
       //自增
      index++;
+
+     if(index>2){
+         index=0;
+         $('.inner-box').css('left',0);
+     }
+    console.log(index);
+
+
       //边界判断
       //让里面的inner-box运动
     $('.inner-box').stop(true).animate({left:-index*1200 },function(){
-        if(index===3){
+        //console.log(index)
+        if(index>2){
             index=0;
+            //$('.inner-box').css('left',0);
             $('.inner-box').css('left',0);
-        }
+       }
     })
    })
 })
